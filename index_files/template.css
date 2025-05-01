@@ -1,0 +1,40 @@
+main .newsletter-module, main .bbnx-tags{
+    display: none !important;
+}
+
+.newsletter-module{
+    display: none !important;
+}
+
+.tvn-signUp{
+  padding: 1vw;
+}
+.tvn-signUp > fieldset{
+  padding: 1%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 86vw;
+  position: relative;
+  top: -10px;
+}
+.tvn-signUp input{
+  padding: 2%;
+  flex: 0 1 40%;
+  margin-left: 6%;
+  margin-top: 3%;
+  text-indent: 2%;
+  margin-bottom: 4%;
+}
+.tvn-signUp button{
+  float: right;
+  padding: 1%;
+  margin-right: -2%;
+  width: 30%;
+  color: var(--text-accent-color, var(--text-color, #fff));
+  background-color: var(--background-accent-color, var(--backgrou));
+  transform: scale(0.8);
+  margin-top: -7px;
+}
